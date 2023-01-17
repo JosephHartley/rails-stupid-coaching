@@ -1,0 +1,23 @@
+<div class="d-grid gap-3">
+  <div class="p-2 bg-light border">
+    <figure>
+      <blockquote class="blockquote">
+        <p><%= params[:question] %></p>
+      </blockquote>
+      <figcaption class="blockquote-footer">
+        <cite title="Source Title">You</cite>
+      </figcaption>
+    </figure>
+  </div>
+  <div class="p-2 bg-warning border mb-3">
+  <figure>
+      <blockquote class="blockquote">
+        <p><%= @answer %></p>
+      </blockquote>
+      <figcaption class="blockquote-footer">
+        <cite title="Source Title">Your Coach</cite>
+      </figcaption>
+    </figure>
+  </div>
+</div>
+  <a href="<%= ask_path %>" class="text-decoration-none">Ask a new question</a>
